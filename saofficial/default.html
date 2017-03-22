@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<style>
+	.lang {
+		background: #e3e3e3;
+		min-width: 200px;
+		width: 200px;
+		padding: 4px;
+		font-family: Arial;
+		font-size: .75em;
+		cursor: pointer;
+	}
+
+	.drop {
+		display: none;
+		margin: 0;
+		background: #4f4f4f;
+		font-family: Arial;
+		color: #fff;
+		font-size: .75em;
+		cursor: pointer;
+		min-width: 200px;
+		width: 200px;
+	}
+
+	.grey {
+		border-bottom: 1px solid #e3e3e3;
+		padding: 6px 4px;
+		cursor: pointer;
+		min-width: 200px;
+		width: 200px;
+		background: #4f4f4f;
+		display: block;
+		position: relative;
+	}
+
+	.language {
+		background: #737373;
+    position: absolute;
+    top: -12px;
+    left: 248px;
+    width: 200px;
+    list-style-type: none;
+    margin-left: -40px;
+    display: none;
+	}
+
+	.language li {
+		padding: 6px 4px;
+		border-bottom: 1px solid #e3e3e3;
+		margin-left: -40px;
+	}
+
+	.grey:hover .language {
+		display: block
+	}
+
+	.select {
+		background: #e3e3e3;
+    color: #000;
+	}
+
+	.flag {
+		position: absolute;
+		display: block;
+		width: 15px;
+		height: 11px;
+		right: 10px;
+	}
+
+	.china {
+		background-image: url('images/icons.png');
+		background-position: -33px -117px;
+	}
+
+	.indonesia {
+		background-image: url('images/icons.png');
+		background-position: -5px -342px;
+	}
+
+</style>
+
+<body>
+
+<div id="languages" class="lang">
+	Select Language
+</div>
+
+<div id="drop" class="drop">
+
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		var obj = [
+			{
+		    "region_name": "中国地区",
+		    "languages": [
+		      "simp-CN",
+		      "trad-CN",
+		      "lang-EN"
+		    ],
+		    "flag" : "china"
+		  },
+		  {
+		    "region_name": "印尼地区",
+		    "languages": [
+		      "simp-RU",
+		      "trad-RU",
+		      "lang-RE"
+		    ],
+		    "flag" : "indonesia"
+		  }
+		];
+
+		$(obj).each(function(k,v){
+			$('#drop')
+				.append('<div class="grey" id="region'+k+'" data-value="'+k+'"><span class="flag '+v.flag+'"></span>'+ v.region_name + '<ul class="language"><li class="select">Select Language</li></ul></div>');
+		});
+
+		$('div.grey').each(function(){
+			console.log($(this).attr('data-value'));
+
+			var divNum = $(this).attr('data-value');
+
+			$(obj[divNum].languages).each(function(k,v){
+				$('#region'+divNum+'>.language').append('<li>'+ v +'</li>');
+			})
+
+		});
+
+		$('#languages').on('click',function(){
+			$('.drop').toggle();
+		});
+
+	});
+
+</script>
+
+
+
+</body>
+</html>

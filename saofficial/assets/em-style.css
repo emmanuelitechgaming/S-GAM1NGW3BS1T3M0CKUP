@@ -1,0 +1,624 @@
+.fborder{
+  padding: 4px 0px;
+background: #666;
+
+}
+.back{
+  padding:10px 15px;
+  border:1px solid #383838;
+  float:left;
+  display: inline-block;
+
+}
+.share-link{
+  padding: 11px 20px;
+  border: 1px solid #383838;
+  float: left;
+  display: inline-block;
+
+
+}
+.back-to-top{
+  padding:10px 15px;
+  border:1px solid #383838;
+  display: inline-block;
+  float:right;
+  text-decoration: none;
+  color:inherit;
+
+}
+.mobile-links{
+  padding:20px;
+  color:#e3e3e3;
+
+}
+.clearfix{
+  clear:both;
+}
+.text-title{
+  color: #fff;
+font-family: "Gotham Medium";
+font-weight: 400;
+line-height: 1;
+text-transform: uppercase;
+display: inline-block;
+padding: .5em;
+border-top: 1px solid #333;
+border-bottom: 1px solid #333;
+padding: .65em 2em;
+
+}
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  position: relative;
+  top: 15px;
+}
+.swiper-pagination-bullet-active {
+    background: #FFFFFF;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 13px;
+  left: 0;
+  width: 100%;
+}
+.debug{
+background: #1A1A1A;
+margin: 5px;
+text-align: center;
+
+}
+.cta{
+  padding: 15px;
+}
+.btn-cta{
+  color: #FFFFFF;
+padding: 10px 20px;
+background-color: rgba(0, 0, 0, 0.3);
+min-width: 160px;
+border: solid 1px #FFFFFF;
+position: relative;
+display: -webkit-inline-flex;
+display: -ms-inline-flexbox;
+display: inline-flex;
+-webkit-justify-content: space-around;
+-ms-flex-pack: distribute;
+justify-content: space-around;
+-webkit-align-items: center;
+-ms-flex-align: center;
+align-items: center;
+font-size: 14px;
+top: 5px;
+text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+}
+.caption-cta{
+  padding: 20px 5px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+
+
+}
+.text-container-wrapper{
+  padding-bottom: 25px;
+}
+.border-cta{
+  color: #BF9A4D;
+  border-top: 3px solid #BF9A4D;
+  padding: 10px 0px;
+  width: 50%;
+  margin: 0 auto;
+
+}    .tencentstyle{
+      display: inline-block!important;
+      float: none;
+      width: 30px;
+      padding: 0;
+      height: 30px;
+      line-height: 24px!important;
+      overflow: ;
+      white-space: nowrap;
+      text-transform: none;
+      text-decoration: none;
+      font-size: 22px;
+      vertical-align: middle;
+      margin: 0px 5px;
+
+
+    }
+    .footer-a{
+      font-size: 32px;
+      color: #C4C4C4;
+
+      padding: 6px 0px;
+        background: #000;
+   }
+
+
+    .disable-main{
+      position: fixed!important;
+
+      width: 100%!important;
+      height: 100%!important;
+      overflow-x: scroll!important;
+      pointer-events: none!important;
+
+    }
+    #gdt div.logo, #gdt h1.logo {
+      position: fixed;
+      background: #000  ;
+      background-size: 153px 40px;
+      width: auto;
+      left: 0;
+      right: 0;
+      overflow: hidden;
+      font-size: 0;
+      z-index: 3;
+   }
+
+
+    .hamburger {
+        font: inherit;
+        display: inline-block;
+        overflow: visible;
+        margin: 0;
+        padding: 15px;
+        cursor: pointer;
+        transition-timing-function: linear;
+        transition-duration: .15s;
+        transition-property: opacity,filter;
+        text-transform: none;
+        color: inherit;
+        border: 0;
+        background-color: #0000;
+    }
+    #gdt div.navtab::before {
+          font-family: 'Panerai Icons';
+          speak: none;
+          font-size: 1em;
+          font-style: normal;
+          font-weight: 400;
+          font-variant: normal;
+          text-transform: none;
+          line-height: 1;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          content: "";
+      }
+    .hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
+          position: absolute;
+          width: 40px;
+          height: 4px;
+          transition-timing-function: ease;
+          transition-duration: .15s;
+          transition-property: transform;
+          border-radius: 4px;
+          background-color: #C19C5E;
+      }
+    #gdt div.navtab::before {
+          font-family: 'Panerai Icons';
+          speak: none;
+          font-size: 1em;
+          font-style: normal;
+          font-weight: 400;
+          font-variant: normal;
+          text-transform: none;
+          line-height: 1;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          content: "";
+      }
+                            /* The side navigation menu */
+        #gdt div.logo a, #gdt h1.logo a {
+            left: 50%;
+            top: 15px;
+            bottom: 20px;
+            position: absolute;
+            width: 200px;
+            margin-left: -100px;
+            text-align: center;
+        }
+
+
+        .sidenav {
+            height: 100%;
+            /* 100% Full-height */
+            width: 0;
+            /* 0 width - change this with JavaScript */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Stay on top */
+            top: 0;
+            right: 0;
+            background-color: #000;
+            /* Black*/
+            overflow-x: hidden;
+            /* Disable horizontal scroll */
+            padding-top: 60px;
+            /* Place content 60px from the top */
+            transition: all .5s ease-in-out;
+            /* 0.5 second transition effect to slide in the sidenav */
+            z-index: 2;
+        }
+        /* The navigation menu links */
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s
+        }
+        /* When you mouse over the navigation links, change their color */
+
+        .sidenav a:hover,
+        .offcanvas a:focus {
+            color: #f1f1f1;
+        }
+        /* Position and style the close button (top right corner) */
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 37%;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+            background: inherit;
+        }
+        /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+        #main {
+            transition: .5s;
+            padding: 20px;
+        }
+        /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+        @media screen and (min-width:320px) {
+        .img-logo{
+          width: 50%;
+
+        }
+
+        }
+        @media screen and (min-width:768px) {
+        .img-logo{
+          width: 100%;
+
+        }
+
+        }
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+
+        @media only screen and (max-width: 1200px) {
+            .profile-header-container {
+                margin: 0 auto;
+                text-align: center;
+            }
+            .profile-header-img {
+                padding: 10px;
+            }
+            .profile-header-img>img.img-circle {
+                width: 120px;
+                height: 120px;
+                border: 2px solid #C19C5E;
+                border-radius: 50%;
+            }
+            .profile-header {
+                margin-top: 43px;
+            }
+            /**
+            * Ranking component
+            */
+            .rank-label-container {
+                margin-top: 9px;
+                /* z-index: 1000; */
+                text-align: center;
+            }
+            .label.label-default.rank-label {
+                background-color: #C19C5E;
+                padding: 2px 12px 2px 13px;
+                border-radius: 27px;
+                font-size: 12px;
+                color: #000;
+            }
+            .forms {
+                display: inline-block;
+                padding-top: 15px;
+                font-size: 15px;
+            }
+            .btn1 {
+                display: inline-block;
+                padding: 10px 25px;
+                border: 1px solid #333;
+                margin: 5
+            }
+            .btn2 {
+                display: inline-block;
+                padding: 10px 25px;
+                border: 1px solid #333;
+            }
+            div.div1 {
+                float: right;
+                height: 75px;
+                margin-left: 5px;
+                width: 60%;
+                border: 1px solid #484848;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 75px;
+                color: #6b6b6b;
+                font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", sans-serif;
+            }
+            div.div2 {
+                clear: right;
+                float: right;
+                height: 75px;
+                width: 60%;
+                margin-top: 5px;
+                border: 1px solid #484848;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 75px;
+                color: #6b6b6b;
+                font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", sans-serif;
+            }
+            div.div3 {
+                height: 160px;
+                width: 35%;
+                overflow: hidden;
+                border: 1px solid #484848;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 160px;
+                color: #6b6b6b;
+                font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", sans-serif;
+            }
+            div.box {
+                padding: 2px;
+            }
+            div.box-container {
+                padding: 20px;
+            }
+            .tabs img {
+                width: 32px;
+                height: 32px;
+                vertical-align: middle;
+            }
+            .tabs {
+                vertical-align: top;
+                display: inline-block;
+                text-align: center;
+            }
+            .caption {
+                display: block;
+            }
+            #gdt .navp div.section nav.main div.head div.inner>a::after {
+                -webkit-transition: none;
+                -webkit-transform: none;
+                -moz-transition: none;
+                -moz-transform: none;
+                -ms-transition: none;
+                -ms-transform: none;
+                transition: none;
+                transform: none;
+                background: 0;
+                content: '>';
+                top: 0;
+                bottom: 0;
+                font-size: 15px;
+                right: 20px;
+                left: auto;
+                margin: 0;
+                font-family: "Gotham Book", Verdana, sans-serif;
+                color: #fff1d3;
+                line-height: 60px;
+            }
+        }
+
+        @media only screen and (min-width: 1200px) {
+            .profile-header-container {
+                display: none;
+            }
+            .profile-header-img {
+                display: none;
+            }
+            .profile-header-img>img.img-circle {
+                display: none;
+            }
+            .profile-header {
+                display: none;
+            }
+            /**
+* Ranking component
+*/
+            .rank-label-container {
+                display: none;
+            }
+            .label.label-default.rank-label {
+                display: none;
+            }
+            .forms {
+                display: none;
+            }
+            .btn1 {
+                display: none;
+            }
+            .btn2 {
+                display: none;
+            }
+            div.div1 {
+                display: none;
+            }
+            div.div2 {
+                display: none;
+            }
+            div.div3 {
+                display: none;
+            }
+            div.box {
+                display: none;
+            }
+            div.box-container {
+                display: none;
+            }
+        }
+.main-header{
+background-image: url('category-slot.jpg');
+background-color: #000;
+background-repeat: no-repeat;
+background-position: center top;
+background-size: 900px 180px;
+height: 180px;
+width: 100%;
+border-top: 1px solid #000;
+border-bottom: 1px solid #262a2c;
+display: block;
+position: relative;
+text-align: center;
+}
+
+.logo-glow{
+  transition: all .4s ease-in-out;
+-moz-transition: all .4s ease-in-out;
+-webkit-transition: all .4s ease-in-out;
+-o-transition: all .4s ease-in-out;
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+}
+.logo-glow:hover {
+    filter: alpha(opacity=1);
+    opacity: 1;
+}
+
+.logo-game{
+  width: 100%;
+transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-webkit-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+}
+
+.jackpot-ticker__coin {
+    position: absolute!important;
+    left: -10px!important;
+    height: 20px!important;
+    width: 20px!important;
+    top: -1.5px!important;
+    color: #212121!important;
+    background-color: #fff!important;
+    padding-top: 1px!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    border-radius: 10px!important;
+    font-family: SkyBold;
+}
+.jackpot-ticker {
+    color: #fff!important;
+    letter-spacing: 0.3!important;
+    text-align: center!important;
+}
+.game-container{
+  margin:20px 0px!important;
+}
+.game-text-bar{
+bottom: 0px;
+left: 0;
+right: 0;
+width: 100%;
+padding: 3px 0px !important;
+color: #000!important;
+background: #fbb100;
+position: absolute;
+}
+.game-text-bar1{
+  position: absolute;
+
+bottom: 20px;
+left: 0;
+right: 0;
+width: 100%;
+padding: 3px 0px !important;
+color: #fff000!important;
+
+}
+a{
+  text-decoration: none;
+}
+.languangeimage{
+  width: 14px;
+margin-right: 5px;
+margin-bottom: 1px;
+border: 0px;
+}
+.languangecontainer{
+  color: white;
+  font-size: 11px;
+  float: right;
+  margin-top: 23px;
+  margin-right: 5px;
+      z-index: 99999999999999;
+}
+.trycontainter{
+  position: fixed;
+  background: #000;
+  left: 0;
+  padding-top: 7px;
+  right: 0;
+  overflow: hidden;
+  font-size: 0;
+  z-index: 3;
+  margin-top: 20px;
+  width: 23%;
+  height: 15px;
+  margin-left: 77%;
+  color: white;
+}
+.trycontainter a{
+  text-decoration: none;
+  color: white;
+  font-size: 9px;
+  font-weight: bold;
+}
+.buttonmodal{
+    background: #000;
+    border: 0px solid black;
+    margin-top: -9px;
+}
+
+.buttonmodal a:link {
+      outline: none !important;
+  }
+.buttonmodal    a:active {
+outline: none !important;
+}
+
+.buttonmodal  a:visited {
+  outline: none !important;
+  }
+
+
+.buttonmodal a:hover {
+    outline: none !important;
+  }
