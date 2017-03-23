@@ -15273,6 +15273,8 @@
             }
 
             function u() {
+
+
                 l(document).on(p, "#snb-selection .mView", function() {
                     l(this).parents("#snb-selection").toggleClass("active")
                 });
@@ -22544,7 +22546,7 @@
                     }
                 }
             });
-            
+
             var f;
             v(g("nav.main>.head>.inner>a, nav.main>.head>.inner>.hassub>a"), function(z, y, w) {
                 clearTimeout(f);
